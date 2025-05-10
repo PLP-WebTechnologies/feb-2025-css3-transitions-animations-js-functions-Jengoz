@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Escape to Beauty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Enjoy the Wonders of Nature</h1>
+
+  <div class="gallery">
+    <div class="image-card">
+      <img src="Img/pexels-photo-206359.jpeg" alt="Sunset" id="sunset-img"/>
+      <p>“Lose yourself in the golden embrace of a sunset that whispers serenity and dreams.”</p>
+      <button onclick="triggerAnimation('sunset-img')">Love it</button>
+    </div>
+
+    <div class="image-card">
+      <img src="Img/pexels-photo-1064162.jpeg" alt="River and Forest" id="river-img"/>
+      <p>“Wander through a lush forest where the river sings secrets only peace can understand.”</p>
+      <button onclick="triggerAnimation('river-img')">Love it</button>
+    </div>
+
+    <div class="image-card">
+      <img src="Img/pexels-photo-1796727.jpeg" alt="Countryside" id="countryside-img"/>
+      <p>“Breathe deep — this is countryside magic, where every sunrise feels like a fresh beginning.”</p>
+      <button onclick="triggerAnimation('countryside-img')">Love it</button>
+    </div>
+  </div>
+
+  <button onclick="savePreference()">Save My Favorite Spot</button>
+  <button onclick="loadPreference()">Load Favorite</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
